@@ -16,7 +16,7 @@ class FileOrg:
     cert_formats = ['.ppk','.crt','.cer','.pem','.json']
     other_formats = ['.xml','.srt','.bat','.key','.json','.dll','.htm','.html','.md','.java','.ica','.sh','.properties']
     
-    Dict = {'TXT': txt_file_formats, 'PDFS':pdf_file_formats,
+    Dict = {'TEXT': txt_file_formats, 'PDFS':pdf_file_formats,
             'DOCS':doc_file_formats,
             'EXCEL':excel_file_formats,
             'VIDEOS':video_file_formats,
